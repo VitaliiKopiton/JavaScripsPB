@@ -1,6 +1,11 @@
+//####Задача 3
+
 //Перепишите код, заменив оператор `switch` на оператор `if..else`:
 
-//```js
+var val = 'e';
+
+//
+
 switch (val) {
 case 'a':
 console.log( 'a' );
@@ -16,5 +21,16 @@ break;
 default:
 console.log( 'unknown' );
 }
+
 //```
+
+
+if (val == 'a') {
+    console.log ( 'a' );
+} else if (val == 'b' || val == 'c' || val == 'd' || val == 'e') {
+    console.log( 'others' );
+}
+    else {
+        console.log( 'unknown' );
+    }
 

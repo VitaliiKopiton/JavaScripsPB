@@ -4,7 +4,9 @@
 
 //Для читаемости — оформляйте код в несколько строк.
 
-//```js
+var login = 'Vitalii';
+
+//
 var message;
 
 if (login == 'Pitter') {
